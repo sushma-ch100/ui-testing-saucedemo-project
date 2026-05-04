@@ -1,80 +1,62 @@
-**UI Testing Project – SauceDemo**
-**Project Overview**
 
-Performed end-to-end manual testing of a real-world e-commerce application (SauceDemo) to validate critical user journeys, uncover UI/functional defects, and ensure consistent behavior across devices and browsers.
+UI Testing Project – SauceDemo
 
-This project simulates a production-like QA workflow, including test design, execution, defect reporting, and result analysis.
-**Testing Objectives**
-Validate core business flows (Login → Product → Cart → Checkout)
-Identify functional and UI defects impacting user experience
-Ensure responsiveness across mobile and tablet devices
-Verify cross-browser compatibility
- **Scope of Testing**
-Authentication: Valid/invalid login scenarios, error handling
-Product Module: Product display, sorting, item details
-Cart & Checkout: Add/remove items, checkout validation
-UI/UX Validation: Layout consistency, button states, text visibility
-Responsive Testing: Mobile & tablet layout behavior
-**Tools & Technologies**
-Test Design & Reporting: Excel
-Browser Testing: Chrome, Safari, Microsoft Edge
-Responsive Testing: Chrome DevTools
-Defect Tracking Approach: Structured bug reporting (severity, steps, expected vs actual)
- **Test Deliverables**
-✔️ Detailed Test Cases (positive & negative scenarios)
-✔️ Defect Reports with reproducible steps
-✔️ Test Summary Report with execution metrics
-**Execution Summary**
-Metric	Value
-Total Test Cases	20
-Passed	17
-Failed	3
-Defects Identified	3
- Key Defects Identified (Impact-Focused)
-Critical: Checkout allowed without items in cart → impacts business logic
-High: Login validation gaps → improper error handling
-Medium: Product image loading inconsistencies → affects UI reliability
+Project Overview
+This project demonstrates end-to-end manual testing of an e-commerce web application (SauceDemo). The objective was to validate core user workflows, identify functional and UI defects, and ensure consistent behavior across devices and browsers.
 
-These defects highlight gaps in validation logic and UI stability, common in real-world applications.
+Scope
+Testing covered the following areas:
 
- **Responsive Testing Approach**
-Tested UI adaptability across multiple screen sizes using Chrome DevTools to simulate real devices.
+* Login functionality (valid and invalid scenarios)
+* Product listing and sorting
+* Cart operations (add/remove items)
+* Checkout process and validations
+* Responsive behavior across devices
 
-** Results**
-Metric	Value
-Test Cases	15
-Passed	13
-Failed	2
-Defects	2
+Tools Used
 
-Observations
-Minor layout misalignment on smaller screens
-Text/content overflow in specific product views
-**Cross-Browser Testing**
- Approach
+* Excel for test case design and reporting
+* Chrome Browser
+* Chrome DevTools for responsive testing
 
-Validated UI consistency and functionality across major browsers.
+Test Deliverables
 
- **Results**
-Metric	Value
-Test Cases	10
-Passed	10
-Failed	0
-Defects	1
- **Observations**
-Minor rendering inconsistency across browsers (non-blocking)
-**QA Thinking & Approach**
-Focused on end-user experience + business impact, not just UI checks
-Designed realistic test scenarios based on actual user behavior
-Prioritized defects using severity and impact analysis
-Ensured traceability between test cases and defects
-Why This Project Stands Out
-Demonstrates complete QA lifecycle execution
-Shows ability to think critically and identify real defects
-Covers functional, UI, responsive, and cross-browser testing
-Structured documentation similar to industry QA standards
- **Next Steps (Planned Enhancements)**
-Automate test cases using Selenium / Playwright
-Integrate test execution with CI/CD (Jenkins)
-Add API testing for backend validation
+* Test Cases covering positive and negative scenarios
+* Bug Reports with detailed steps and expected vs actual results
+* Test Summary Report with execution metrics
+
+Execution Summary
+Total Test Cases: 20
+Passed: 17
+Failed: 3
+Defects Identified: 3
+
+Key Defects
+
+* Checkout allowed without items in cart
+* Login validation issues
+* Product image loading inconsistencies
+
+Responsive Testing
+Responsive testing was performed using Chrome DevTools across mobile and tablet views.
+Devices tested include iPhone 12, iPhone SE, iPad, and responsive view.
+
+Summary
+Total Test Cases: 15
+Passed: 13
+Failed: 2
+Defects Reported: 2
+
+Cross-Browser Testing
+Testing was conducted across Chrome, Safari, and Microsoft Edge to ensure consistent behavior.
+
+Summary
+Total Test Cases: 10
+Passed: 10
+Failed: 0
+Defects Reported: 1
+
+Conclusion
+This project reflects hands-on experience in manual testing, including test design, execution, defect identification, and reporting. It demonstrates the ability to validate real-world application workflows and ensure quality across different environments.
+
 
