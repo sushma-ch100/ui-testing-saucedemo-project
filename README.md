@@ -1,5 +1,6 @@
 
 UI Testing Project – SauceDemo
+Website Tested : https://www.saucedemo.com/
 
 Project Overview
 This project demonstrates end-to-end manual testing of an e-commerce web application (SauceDemo). The objective was to validate core user workflows, identify functional and UI defects, and ensure consistent behavior across devices and browsers.
